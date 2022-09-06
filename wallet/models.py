@@ -1,10 +1,10 @@
-from ast import mod
-from distutils.command.upload import upload
-import email
-from inspect import signature
-from locale import currency
+# from ast import mod
+# from distutils.command.upload import upload
+# import email
+# from inspect import signature
+# from locale import currency
 from tkinter import CASCADE
-from unicodedata import name
+# from unicodedata import name
 from django.db import models
 from django.utils import timezone
 
@@ -44,6 +44,8 @@ class Customer(models.Model) :
 
     def __str__(self) -> str:
         return self.first_name +" " + self.last_name
+
+        # return admin.register(Customer)
 
 
 class Currency(models.Model) :
